@@ -24,5 +24,8 @@ public class ResultActivity extends AppCompatActivity {
         Animation a = AnimationUtils.loadAnimation(this, R.anim.result_anim);
         tv_result.startAnimation(a);
 
+        //========================================
+       //hello
+
     }
 }
