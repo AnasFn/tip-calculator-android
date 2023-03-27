@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="12000"
         android:textColor="@color/orange"
-        android:textSize="84sp"
+        android:textSize="64sp"
         android:textStyle="bold"
         android:layout_margin="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
@@ -35,28 +35,18 @@
         app:layout_constraintVertical_bias="0.43" />
 
     <TextView
-        android:id="@+id/tv_result2"
+        android:id="@+id/text_ttotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/roboto"
         android:text="TOTAL"
-        android:textColor="@color/black"
+        android:textColor="@color/grey"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_result"
-        app:layout_constraintVertical_bias="0.07999998" />
+        app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Bucks"
-        android:textColor="@color/grey"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_result2"
-        app:layout_constraintStart_toEndOf="@+id/tv_result2"
-        app:layout_constraintTop_toBottomOf="@+id/tv_result"
-        app:layout_constraintVertical_bias="0.55" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -85,11 +85,11 @@
             android:text="Amazing (20%)" />
 
         <RadioButton
-            android:id="@+id/radio_16"
+            android:id="@+id/radio_15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:text="Good (16%)" />
+            android:text="Good (15%)"
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/rdaio_10"
@@ -106,16 +106,16 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="9dp"
-        android:layout_marginTop="45dp"
         android:layout_marginEnd="9dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/orange"
         android:text="Calculate"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="18sp"
-        android:backgroundTint="@color/orange"
+        android:textStyle="bold"
         app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
